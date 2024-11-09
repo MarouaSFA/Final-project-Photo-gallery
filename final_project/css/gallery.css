@@ -1,0 +1,43 @@
+/* gallery.css */
+body {
+  margin: 2%;
+  font-family: Arial, sans-serif;
+  background-color: #b3b3b3;
+  text-align: center;
+}
+
+#image {
+  width: 600px;
+  height: 400px;
+  border: 5px solid black;
+  margin: 0 auto;
+  background-color: #8e68ff;
+  color: #ffffff;
+  background-size: cover;
+  background-position: center;
+  line-height: 400px;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.preview {
+  width: 100px;
+  height: 100px;
+  margin: 0 10px;
+  object-fit: cover;
+  border: 2px solid black;
+  transition: transform 0.2s;
+}
+
+.preview:hover {
+  transform: scale(1.1);
+}
+
